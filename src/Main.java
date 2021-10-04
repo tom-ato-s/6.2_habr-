@@ -3,8 +3,8 @@
 
 public class Main {
     public static void main(String[] args) {
-        StringBuilder stringBuilder  = new StringBuilder("ABC");
-        StringBuilder_ stringBuilder_ = new StringBuilder_(stringBuilder);
+        StringBuilder stringBuilder  = new StringBuilder("ABC");//создание строкиб ввод двнных
+        StringBuilder_ stringBuilder_ = new StringBuilder_(stringBuilder); //
         ConcreteObservable ol = new ConcreteObservable(stringBuilder_);
 
 
